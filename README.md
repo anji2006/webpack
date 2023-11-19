@@ -42,3 +42,7 @@
 ### webpack-merge 
     - This used to merge dev and prod webpack scripts with common config.
     - npm install --save-dev webpack-merge
+
+### Typescript Integration
+    - npm install --save-dev typescript ts-loader
+    

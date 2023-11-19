@@ -9,6 +9,9 @@ module.exports = merge(common, {
   devtool: "inline-source-map",
   devServer: {
     static: "./dist",
+    hot: true,
+    open: true,
+    compress: true,
     port: PORT,
     open: `http://localhost:${PORT}/${PUBLIC_PATH}/`,
   },

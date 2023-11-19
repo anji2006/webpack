@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "jsx": "react" /* Specify JSX code generation: 'preserve', 'react-native', 'react' or 'react-jsx'. */,
+    "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
+    "strict": true /* Enable all strict type-checking options. */
+    // "noEmit": true /* Do not emit outputs. */
+  },
+  "include": ["src/**/*"]
+}
